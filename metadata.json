@@ -1,0 +1,6 @@
+{
+  "name": "Safe Jobs Shield",
+  "description": "Multilingual, privacy-first job-offer verification service and safe employment pathways for young job seekers in Zimbabwe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

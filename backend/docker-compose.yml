@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: safe_jobs_shield_api
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - SJS_PEPPER=ZIM_SJS_PRODUCTION_PEPPER_CHANGE_ME_IN_ENV
+      - WHATSAPP_VERIFY_TOKEN=sjs_secret_verify_token_2026
+      - WHATSAPP_API_TOKEN=mock_whatsapp_token_meta_cloud
+      - WHATSAPP_PHONE_NUMBER_ID=mock_phone_number_id_meta
+      - GEMINI_API_KEY=""
+      - GOOGLE_SAFE_BROWSING_API_KEY=""
+      - VIRUSTOTAL_API_KEY=""
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

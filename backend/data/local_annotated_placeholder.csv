@@ -1,0 +1,9 @@
+text,language,label,scam_type,source,annotator1,annotator2
+"URGENT: General workers panodiwa kuOK Mart distribution Harare. Bhadhara $25 uniform fee paEcoCash nhasi kuti upinde.",sn,1,advance_fee,consented_whatsapp_community,youth_annotator_harare,linguist_sn_uz
+"Delta Beverages iri kutsvaga vanhu vanoisa zvinhu muwarehouse. Nyora pa careers@delta.co.zw. Hakuna mari inobhadharwa.",sn,0,none_legitimate,official_gazette_notice,youth_annotator_harare,linguist_sn_uz
+"Basa rekubika nekuchenesa muDubai. Muhoro $2,200 USD. Tumira pikicha yemuviri wese nepaspoti paWhatsApp iyi.",sn,1,trafficking_red_flag,youth_report_masvingo,youth_annotator_harare,lawyer_zim_bar
+"Kudingeka abantu bokusebenza e-supermarket eBulawayo. Bhadhala $20 imali yokubhalisa ku-EcoCash lamuhla ukuze ungene.",nd,1,advance_fee,consented_whatsapp_community,youth_annotator_bulawayo,linguist_nd_nust
+"Matabeleland Solar Tech icela izicelo zabasebenzi bokufaka amapaneli e-solar. Inhlolokhono emahofisini eBulawayo. Ayibhadhisi mali.",nd,0,none_legitimate,press_advertisement,youth_annotator_bulawayo,linguist_nd_nust
+"Mupfanha pane vacancy yeklerki patown house. Keep this strictly secret musaudza vamwe. Tumira $40 yekubatsira vanhu veHR.",sn,1,bribe_slot,community_forward,youth_annotator_harare,linguist_sn_uz
+"Zambezi Digital Solutions is hiring Junior Developer. Coding test and panel interview at Samora Machel office. No fees.",en,0,none_legitimate,official_company_site,youth_annotator_harare,linguist_sn_uz
+"Kuwait domestic worker contract. Free flights arranged directly by agent. Surrender passport upon arrival.",en,1,trafficking_red_flag,consented_diaspora_network,youth_annotator_harare,lawyer_zim_bar

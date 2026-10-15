@@ -1,0 +1,35 @@
+[
+  {
+    "id": "usr-officer-001",
+    "name": "Tinashe Moyo (Verification Officer)",
+    "email": "officer@safejobs.gov.zw",
+    "passwordHash": "32dc5ada90e9bbac7cc65e640b1dea0a:0617512c9752a12170f20cfce132d6b31681ee0f392046614ab6a98f318b2b79c5a7794677975a0688ae988c4ca341395cca5680a35dfe4b98144c12d1c53245",
+    "role": "verifier",
+    "isEmailVerified": true,
+    "authProvider": "local",
+    "createdAt": 1789374969062,
+    "lastLoginAt": 1791963369062
+  },
+  {
+    "id": "usr-citizen-002",
+    "name": "Chipo Sithole",
+    "email": "citizen@example.co.zw",
+    "passwordHash": "c6e80ee190c68263865a0dfd09a97d65:7866b81bc1c17f90dcd5c04e7afa264f86f3e1ecad12efd194e22f1ef3241f581f56a6d2652837ce14aed21400fa34c7b10b7a01f299bba46ab6a7afbc669388",
+    "role": "citizen",
+    "isEmailVerified": true,
+    "authProvider": "local",
+    "createdAt": 1790757369148,
+    "lastLoginAt": 1791966981584
+  },
+  {
+    "id": "usr-1791966981613-8ee4f7f1",
+    "name": "Tatenda Shumba",
+    "email": "testuser_1791966981607@example.co.zw",
+    "passwordHash": "48e86d58c86ada2672e6dac4483ad0d9:fb210f37181b21de634087c271adf24138f4b40a2318e6ba51663c9df4eb51e0aa9a64c03b03bbb111d8b0583f721e116ac6c68e35ea46ef10e20cb100f1d544",
+    "role": "citizen",
+    "isEmailVerified": true,
+    "authProvider": "local",
+    "createdAt": 1791966981681,
+    "lastLoginAt": 1791966981681
+  }
+]
